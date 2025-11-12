@@ -1,7 +1,11 @@
 [build]
   command = "npm run generate"
-  publish = "dist"
+  # Nuxt/Nitro outputs static files to .output/public for `nuxt generate`.
+  # Use that as the publish directory so Netlify serves the correct folder.
+  publish = ".output/public"
 
 [build.environment]
   # Increase Node heap as a safety net during build (optional)
   NODE_OPTIONS = "--max-old-space-size=4096"
+  # Force Nitro to use the static preset on Netlify to avoid server function bundling
+  NITRO_PRESET = "static"
