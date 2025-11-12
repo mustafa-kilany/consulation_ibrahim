@@ -98,10 +98,10 @@
                 <i class="fas fa-map-marker-alt me-2"></i>Amman, Jordan
               </p>
               <p class="mb-2">
-                <i class="fas fa-phone me-2"></i>+962 X XXX XXXX
+                <i class="fas fa-phone me-2"></i>+962 7 9904 1273
               </p>
               <p class="mb-2">
-                <i class="fas fa-envelope me-2"></i>info@strategicconsulting.jo
+                <i class="fas fa-envelope me-2"></i>Ibrahimmhmd.kelani@gmail.com
               </p>
             </div>
           </div>

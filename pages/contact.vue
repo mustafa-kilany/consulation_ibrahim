@@ -236,7 +236,7 @@
                     </div>
                     <div>
                       <h6 class="fw-bold mb-1">Phone</h6>
-                      <p class="text-muted mb-0">+962 X XXX XXXX</p>
+                      <p class="text-muted mb-0">+962 7 9904 1273</p>
                     </div>
                   </div>
                   <div class="contact-item d-flex align-items-start mb-4">
@@ -245,7 +245,7 @@
                     </div>
                     <div>
                       <h6 class="fw-bold mb-1">Email</h6>
-                      <p class="text-muted mb-0">info@strategicconsulting.jo</p>
+                      <p class="text-muted mb-0">Ibrahimmhmd.kelani@gmail.com</p>
                     </div>
                   </div>
                   <div class="contact-item d-flex align-items-start">
