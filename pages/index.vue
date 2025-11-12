@@ -213,17 +213,17 @@ const heroSlides = [
     description: 'Modern skyscraper development and large-scale project planning'
   },
   {
-    image: 'https://images.pexels.com/photos/34206104/pexels-photo-34206104.jpeg?auto=compress&cs=tinysrgb&w=3000&h=2000&fit=crop',
+    image: 'https://images.unsplash.com/photo-1557433363-1608a0b9d2b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=3000&q=80',
     title: 'Business Team Presentation',
     description: 'Strategic planning and corporate development in modern office environment'
   },
   {
-    image: 'https://images.unsplash.com/photo-7HQmwnRuA-w?ixlib=rb-4.0.3&auto=format&fit=crop&w=3000&q=80',
+    image: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=3000&q=80',
     title: 'Professional Consulting',
     description: 'Expert business advisory and strategic consulting services'
   },
   {
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=3000&q=80',
+    image: 'https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=3000&q=80',
     title: 'Financial Analysis',
     description: 'Investment evaluation and financial modeling expertise'
   }
