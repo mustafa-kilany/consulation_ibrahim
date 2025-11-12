@@ -1,0 +1,7 @@
+[build]
+  command = "npm run generate"
+  publish = "dist"
+
+[build.environment]
+  # Increase Node heap as a safety net during build (optional)
+  NODE_OPTIONS = "--max-old-space-size=4096"
