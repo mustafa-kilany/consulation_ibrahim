@@ -1,0 +1,339 @@
+/* Custom CSS for Strategic Consulting Website */
+
+:root {
+  --primary-color: #000000;
+  --secondary-color: #333333;
+  --accent-color: #f8f9fa;
+  --text-primary: #000000;
+  --text-secondary: #666666;
+  --text-muted: #999999;
+  --success-color: #000000;
+  --info-color: #333333;
+  --warning-color: #666666;
+  --danger-color: #000000;
+  --light-color: #ffffff;
+  --dark-color: #000000;
+  --border-radius: 0px;
+  --shadow: 0 2px 8px rgba(0,0,0,0.15);
+  --container-width: 1200px;
+}
+
+body {
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+
+/* Container customization */
+.container {
+  max-width: var(--container-width);
+}
+
+/* Override Bootstrap primary color */
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  border-radius: 0;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  padding: 12px 24px;
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.btn-outline-primary {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+  border-radius: 0;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  padding: 12px 24px;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: white;
+}
+
+/* Secondary color styling */
+.bg-secondary-custom {
+  background-color: var(--secondary-color) !important;
+}
+
+.text-secondary-custom {
+  color: var(--secondary-color) !important;
+}
+
+.btn-secondary-custom {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  color: white;
+}
+
+.btn-secondary-custom:hover {
+  background-color: #b8984a;
+  border-color: #b8984a;
+}
+
+/* Text colors */
+.text-muted {
+  color: var(--text-secondary) !important;
+}
+
+/* Accent background */
+.bg-accent {
+  background-color: var(--accent-color) !important;
+}
+
+/* Sharp borders - no radius */
+.rounded, .btn, .card, .form-control, .form-select {
+  border-radius: 0 !important;
+}
+
+.card {
+  border: 1px solid #e0e0e0;
+  box-shadow: var(--shadow);
+}
+
+.form-control, .form-select {
+  border: 1px solid #ccc;
+  border-radius: 0;
+  font-weight: 400;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgba(0,0,0,0.1);
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+/* Shadow */
+.shadow-sm {
+  box-shadow: var(--shadow) !important;
+}
+
+.shadow, .shadow-lg {
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12) !important;
+}
+
+/* Hero Section Styles */
+.hero {
+  min-height: 100vh;
+  background: var(--primary-color);
+  position: relative;
+}
+
+.hero-background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Navigation Styles */
+.navbar {
+  transition: all 0.2s ease;
+  background-color: var(--primary-color) !important;
+  border-bottom: 1px solid #333;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  font-size: 1.25rem;
+}
+
+.nav-link {
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+}
+
+.navbar-scrolled {
+  background-color: rgba(30, 58, 138, 0.95) !important;
+  box-shadow: var(--shadow);
+}
+
+/* Card Hover Effects */
+.hover-shadow {
+  transition: all 0.3s ease;
+}
+
+.hover-shadow:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+/* Project Image Styles */
+.project-image {
+  background-size: cover;
+  background-position: center;
+  transition: all 0.3s ease;
+}
+
+.project-image:hover {
+  transform: scale(1.05);
+}
+
+/* Image overlay effects */
+.card:hover .project-image {
+  transform: scale(1.02);
+}
+
+/* Ensure images are responsive */
+.card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.02);
+}
+
+/* Expertise Section */
+.expertise-icon {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+}
+
+/* Footer Styles */
+.footer {
+  background: linear-gradient(135deg, var(--primary-color) 0%, #1e40af 100%);
+  color: white;
+}
+
+.footer a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: white;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.4s ease-out;
+}
+
+/* Sharp, minimal design overrides */
+.hover-shadow:hover {
+  transform: none;
+  box-shadow: var(--shadow);
+}
+
+.project-image:hover {
+  transform: none;
+}
+
+.card:hover .project-image {
+  transform: none;
+}
+
+.card:hover .card-img-top {
+  transform: none;
+}
+
+/* Sharp badge styling */
+.badge {
+  border-radius: 0;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  padding: 4px 8px;
+}
+
+/* Remove expertise icon styling */
+.expertise-icon {
+  display: none;
+}
+
+/* Sharp footer */
+.footer {
+  background: var(--primary-color);
+  color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem !important;
+  }
+  
+  .hero .lead {
+    font-size: 1.1rem;
+  }
+}
+
+/* Custom button styles */
+.btn-custom {
+  border-radius: 50px;
+  padding: 12px 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Section spacing */
+.section-padding {
+  padding: 80px 0;
+}
+
+/* Background patterns */
+.bg-pattern {
+  background-image: 
+    radial-gradient(circle at 25% 25%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 75% 75%, rgba(255, 255, 255, 0.1) 0%, transparent 50%);
+}
