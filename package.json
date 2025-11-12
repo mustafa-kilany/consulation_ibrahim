@@ -4,8 +4,8 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "pregenerate": "md .netlify\\functions-internal\\server && type nul > .netlify\\functions-internal\\server\\.gitkeep",
+  "generate": "nuxt generate",
+  "pregenerate": "node -e \"require('fs').mkdirSync('.netlify/functions-internal/server',{recursive:true});require('fs').writeFileSync('.netlify/functions-internal/server/.gitkeep','')\"",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
